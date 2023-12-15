@@ -2,13 +2,13 @@ package stream_test
 
 import (
 	"fmt"
-	"sync/atomic"
 	"testing"
 	"time"
 
-	"github.com/sourcegraph/conc/stream"
-
 	"github.com/stretchr/testify/require"
+	"go.uber.org/atomic"
+
+	"github.com/zcong1993/conc/stream"
 )
 
 func ExampleStream() {

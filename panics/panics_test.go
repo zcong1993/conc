@@ -7,10 +7,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/sourcegraph/conc/panics"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/zcong1993/conc/panics"
 )
 
 func ExampleCatcher() {

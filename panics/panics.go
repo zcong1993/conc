@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"runtime"
 	"runtime/debug"
-	"sync/atomic"
+
+	"go.uber.org/atomic"
 )
 
 // Catcher is used to catch panics. You can execute a function with Try,

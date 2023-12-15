@@ -3,13 +3,13 @@ package pool_test
 import (
 	"fmt"
 	"strconv"
-	"sync/atomic"
 	"testing"
 	"time"
 
-	"github.com/sourcegraph/conc/pool"
-
 	"github.com/stretchr/testify/require"
+	"go.uber.org/atomic"
+
+	"github.com/zcong1993/conc/pool"
 )
 
 func ExamplePool() {

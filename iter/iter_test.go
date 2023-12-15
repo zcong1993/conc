@@ -3,12 +3,12 @@ package iter_test
 import (
 	"fmt"
 	"strconv"
-	"sync/atomic"
 	"testing"
 
-	"github.com/sourcegraph/conc/iter"
-
 	"github.com/stretchr/testify/require"
+	"go.uber.org/atomic"
+
+	"github.com/zcong1993/conc/iter"
 )
 
 func ExampleIterator() {

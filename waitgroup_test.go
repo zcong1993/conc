@@ -2,12 +2,12 @@ package conc_test
 
 import (
 	"fmt"
-	"sync/atomic"
 	"testing"
 
-	"github.com/sourcegraph/conc"
-
 	"github.com/stretchr/testify/require"
+	"go.uber.org/atomic"
+
+	"github.com/zcong1993/conc"
 )
 
 func ExampleWaitGroup() {

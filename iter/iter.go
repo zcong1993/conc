@@ -2,9 +2,10 @@ package iter
 
 import (
 	"runtime"
-	"sync/atomic"
 
-	"github.com/sourcegraph/conc"
+	"go.uber.org/atomic"
+
+	"github.com/zcong1993/conc"
 )
 
 // defaultMaxGoroutines returns the default maximum number of

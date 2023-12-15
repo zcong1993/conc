@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/sourcegraph/conc/panics"
-
 	"github.com/stretchr/testify/require"
+
+	"github.com/zcong1993/conc/panics"
 )
 
 func TestTry(t *testing.T) {
